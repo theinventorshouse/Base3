@@ -39,7 +39,7 @@ void loop(void) {
       //Este comentario tampoco sirve para nada
       Serial.print(message.getRecordCount());
       Serial.print(" memorias NDEF");
-      //En la entrada de Lopez Mateos hay un Arduino el puede ayudarte
+      //En la Unidad Academica hay un Arduino el puede ayudarte
       if (message.getRecordCount() != 1) {
         Serial.print("s");
       }
